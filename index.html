@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar" id="home">
+    <div class="brand">
+      <span class="name">Dikshya</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#certifications">CERTIFICATIONS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <!-- Main Container -->
+  <div class="container">
+    <section class="hero">
+      <div class="hero-text">
+    <h1>Hi <span class="wave">👋</span><br>I'm <span class="highlight">Dikshya</span></h1>
+    </div>
+    <div class="hero-img">
+    <img src="p.jpg" alt="Profile Image" class="profile-img" />
+    </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        Hello! I'm a passionate IT student currently studying at <strong>Asian School of Management & Technology</strong>, Gongabu, Kathmandu.
+        I’m on a journey to explore the world of software development and continually improve my skills in building practical and engaging applications.
+      </p>
+      <p>
+        I work primarily with <strong>HTML, CSS, JavaScript, Python</strong>, and <strong>Bootstrap</strong>. I've developed several mini projects,
+        including a Todo List, a Weather App, and a Joke Generator, which have helped me understand both frontend design
+        and basic logic implementation.
+      </p>
+      <p>
+        Right now, I’m especially interested in software development, although I’m still exploring which direction the future might take me — 
+        and that’s part of the excitement. I’m always eager to learn new technologies, take on challenges, and grow as a developer.
+      </p>
+    </section>
+
+       <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skill">
+        <span>JavaScript <span>70%</span></span>
+        <div class="bar"><div class="fill" style="width: 70%;"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>React JS <span>50%</span></span>
+        <div class="bar"><div class="fill" style="width: 50%;"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Python <span>50%</span></span>
+        <div class="bar"><div class="fill" style="width: 50%;"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Git / GitHub <span>70%</span></span>
+        <div class="bar"><div class="fill" style="width: 70%;"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>C/C++ <span>80%</span></span>
+        <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+      <h2 class="section-title">Certifications</h2>
+      <ul>
+      <a href="cybersecurity.png" download class="resume-btn"><i class="fas fa-download"></i> Cybersecurity</a>
+      <a href="LinkedIn.png" download class="resume-btn"><i class="fas fa-download"></i> LinkedIn Optimization</a>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2 class="section-title">Contact</h2>
+   <form class="contact-form" action="https://formspree.io/f/yourformid" method="POST">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="_replyto" required />
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+
+  <div class="social-icons">
+    <p>📧 Email:<a href="mailto:thapadikshya006@gmail.com">thapadikshya006@gmail.com</a></p>
+    <p><i class="fas fa-map-marker-alt"></i> Lainchaur, Kathmandu</p> 
+    <a href="https://www.linkedin.com/in/dikshya-thapa-7b1105320"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/Dikxya09"><i class="fab fa-github"></i></a>
+    <a href="https://x.com/Dikshyathapa036"><i class="fab fa-twitter"></i></a>
+  </div>
+  </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Dikshya Thapa Magar. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
